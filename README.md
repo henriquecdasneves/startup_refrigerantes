@@ -1,4 +1,4 @@
-henriquecdasneves.github.io/startup_refrigerantes/
+https://henriquecdasneves.github.io/startup_refrigerantes/
 
 <img width="2523" height="903" alt="morango" src="https://github.com/user-attachments/assets/075148ae-c391-48ae-9bc5-7c2f4d0eac10" />
 
