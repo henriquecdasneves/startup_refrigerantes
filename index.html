@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Startup</title>
   </head>
   <body>
     <main>
-
-      <div class="item">
+      <div class="item" style="--background: #ea3d41">
         <div class="title">Strawberry</div>
         <img
           src="./imagens/Morango-refrigerante-foregroundBlur.png"
           class="fruit"
         />
         <img src="./imagens/Morango-refrigerante.png" class="refri" />
-      
-      <div class="item">
+      </div>
+
+      <div class="item active" style="--background: #2d5343">
         <div class="title">Avocado</div>
         <img
           src="./imagens/Abacate-refrigerante-foregroundBlur.png"
           class="fruit"
         />
         <img src="./imagens/Abacate-refrigerante.png" class="refri" />
-      
-      <div class="item">
+      </div>
+
+      <div class="item hidden" style="--background: #e7a043">
         <div class="title">Orange</div>
         <img
           src="./imagens/Laranja-refrigerante-foregroundBlur.png"
@@ -33,11 +35,10 @@
         <img src="./imagens/Laranja-refrigerante.png" class="refri" />
       </div>
 
-      <div class="arrows">
-        <button> </button>
-        <button> </button>
+      <div class="arrow">
+        <button id="prev"></button>
+        <button id="next"></button>
       </div>
-      
     </main>
   </body>
 </html>
